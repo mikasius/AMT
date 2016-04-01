@@ -1,0 +1,60 @@
+.viewport {
+    padding: 50px;
+}
+
+.scheme {
+    position: relative;
+    
+    width: 250px;
+    height: 350px;
+    border: 1px solid #ccc;
+    
+    margin-right: 5px;
+    margin-bottom: 5px;
+    
+    box-shadow: 0 0 1px rgba(0,0,0,0.5);
+    
+    display: inline-block;
+}
+
+.scheme--image {
+    background: url('../img/test.png') 0 0 no-repeat;
+    width: 200px;
+    height: 210px;
+    position: absolute;
+    
+    margin: 0 auto;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+}
+
+.scheme--description {
+    position: absolute;
+    bottom: 0;
+
+    border-top: 1px solid rgb(169,167,168);
+    
+    width: 220px;
+    height: 100px;
+    
+    padding: 15px;
+    
+    overflow-y: hidden;
+}
+
+a {
+    color:rgb(26,34,29);
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    opacity: .8;
+    color: slategrey;
+}
