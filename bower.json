@@ -1,0 +1,18 @@
+{
+  "name": "amt",
+  "homepage": "https://github.com/Mikasa/AMT",
+  "authors": [
+    "Sergey Metlenkin <s.metlenkin@gmail.com>"
+  ],
+  "description": "Automatic Measurement Tool for diploma",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
