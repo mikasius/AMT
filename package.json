@@ -1,0 +1,19 @@
+{
+  "name": "amt",
+  "version": "1.0.0",
+  "description": "Программа для автоматического расчета тепловыъ режимов РЭС.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikasa/AMT.git"
+  },
+  "author": "Sergey Metlenkin <s.metlenkin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mikasa/AMT/issues"
+  },
+  "homepage": "https://github.com/Mikasa/AMT#readme"
+}

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SemanticUI" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/bower_components/semantic/dist/semantic.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/bower_components/semantic/dist/semantic.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

@@ -1,123 +1,217 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
-    <title>Automatic Measuring Tool</title>
+    <title>Automatic Measurement Tool</title>
 
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-    <!--<link rel="stylesheet" href="assets/css/bootstrap-slate-theme.css">-->
-    <link rel="stylesheet" href="assets/css/bootstrap-readable-theme.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/semantic/dist/semantic.min.js"></script>
+    <script src="assets/js/script.js"></script>
 
-    <script src="assets/js/jquery.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="bower_components/semantic/dist/semantic.min.css">
+
 
 </head>
-
 <body>
-<div class="viewport">
+<main class="ui container">
 
-    <section class="stages stage-1 ui accordion">
-        <h1>Stage-1</h1>
-        <div class="accordion-el">
-            <a href="#">
-                <div class="scheme">
-                    <div class="scheme--image"></div>
-                    <div class="scheme--description">
-                        <span>Зыд пожжэ квюаыквуэ констятюам ед. Шэа чингюльищ ажжынтиор эа, омныз маиорюм дэтракто пэр нэ. Ыам ыльигэнди глориатюр эю, ыам жкаывола элыктрам лаборамюз ед. Нибх аппэтырэ мныжаркхюм нык ку. Ридэнж алььтэрюм тхэопхражтуз квюо экз, эа еюж нобёз ыкжплььикари.
-
-Вэл эа фюйзчыт дычэрунт пэртинакёа, эа ыам омниюм орнатюс. Выльёт жэмпэр апэряря эи квуй, прё ты доктюж кончюлату. Ут вэл квюач пожйдонёюм, эрат тымпор адолэжкэнс ут ыюм. Ты кюм клита ёнэрмйщ пытынтёюм. Вэл дычэрунт дэлььиката мныжаркхюм эи. Но аляквюид ёнкорруптэ нык, ку фюгит декам мюнырэ ыюм, эвэртё орнатюс рыкючабо хаж ыт. Ку декам волумюч хёз.
-
-Ад квюо корпора ылоквюэнтиам. Конвынёры компльыктётюр ут мэя. Ючю фюйзчыт дэмокритум ат, дикунт вокынт ыт мэль, мыа праэчынт пэртинакёа но. Ты аюдирэ адипижкй плььатонэм хаж. Жят пробо пожжёт ут, ыт мэль пэрчёус партйэндо, ажжюм фачтидёе мандамюч эа ыам.</span>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#">
-                <div class="scheme">
-                    <div class="scheme--image"></div>
-                    <div class="scheme--description">
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, tempora aliquam ducimus possimus quo tenetur ratione doloribus.</span>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#">
-                <div class="scheme">
-                    <div class="scheme--image"></div>
-                    <div class="scheme--description">
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, tempora aliquam ducimus possimus quo tenetur ratione doloribus.</span>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#">
-                <div class="scheme">
-                    <div class="scheme--image"></div>
-                    <div class="scheme--description">
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, tempora aliquam ducimus possimus quo tenetur ratione doloribus.</span>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#">
-                <div class="scheme">
-                    <div class="scheme--image"></div>
-                    <div class="scheme--description">
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, tempora aliquam ducimus possimus quo tenetur ratione doloribus.</span>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#">
-                <div class="scheme">
-                    <div class="scheme--image"></div>
-                    <div class="scheme--description">
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, tempora aliquam ducimus possimus quo tenetur ratione doloribus.</span>
-                    </div>
-                </div>
-            </a>
+    <div class="ui fluid styled accordion">
+        <div class="title">
+            <i class="dropdown icon"></i>
+            Stage 1
         </div>
-    </section>
+        <div class="content">
 
-    <section class="stages stage-2">
-        <h1>Stage-2</h1>
-        <div class="accordion-el">
-            <p>Зыд пожжэ квюаыквуэ констятюам ед. Шэа чингюльищ ажжынтиор эа, омныз маиорюм дэтракто пэр нэ. Ыам
-                ыльигэнди глориатюр эю, ыам жкаывола элыктрам лаборамюз ед. Нибх аппэтырэ мныжаркхюм нык ку. Ридэнж
-                алььтэрюм тхэопхражтуз квюо экз, эа еюж нобёз ыкжплььикари.
+            <div class="ui special three stackable cards">
 
-                Вэл эа фюйзчыт дычэрунт пэртинакёа, эа ыам омниюм орнатюс. Выльёт жэмпэр апэряря эи квуй, прё ты доктюж
-                кончюлату. Ут вэл квюач пожйдонёюм, эрат тымпор адолэжкэнс ут ыюм. Ты кюм клита ёнэрмйщ пытынтёюм. Вэл
-                дычэрунт дэлььиката мныжаркхюм эи. Но аляквюид ёнкорруптэ нык, ку фюгит декам мюнырэ ыюм, эвэртё орнатюс
-                рыкючабо хаж ыт. Ку декам волумюч хёз.
+                <div class="ui card">
+                    <a class="blurring dimmable image" href="#">
+                        <div class="ui dimmer">
+                            <div class="content">
+                                <div class="center">
+                                    <div class="ui inverted button">Choose</div>
+                                </div>
+                            </div>
+                        </div>
 
-                Ад квюо корпора ылоквюэнтиам. Конвынёры компльыктётюр ут мэя. Ючю фюйзчыт дэмокритум ат, дикунт вокынт
-                ыт мэль, мыа праэчынт пэртинакёа но. Ты аюдирэ адипижкй плььатонэм хаж. Жят пробо пожжёт ут, ыт мэль
-                пэрчёус партйэндо, ажжюм фачтидёе мандамюч эа ыам.</p>
+                        <img src="assets/img/test.png">
+                    </a>
+                    <div class="content">
+                        <a class="header" href="#">Перфорированный корпус</a>
+                        <div class="meta">
+                            <a>Для вентиляции применяется перфорация.</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui card">
+                    <a class="blurring dimmable image" href="#">
+                        <div class="ui dimmer">
+                            <div class="content">
+                                <div class="center">
+                                    <div class="ui inverted button">Choose</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <img src="assets/img/test.png">
+                    </a>
+                    <div class="content">
+                        <a class="header" href="#">Перфорированный корпус</a>
+                        <div class="meta">
+                            <a>Для вентиляции применяется перфорация.</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui card">
+                    <a class="blurring dimmable image" href="#">
+                        <div class="ui dimmer">
+                            <div class="content">
+                                <div class="center">
+                                    <div class="ui inverted button">Choose</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <img src="assets/img/test.png">
+                    </a>
+                    <div class="content">
+                        <a class="header" href="#">Перфорированный корпус</a>
+                        <div class="meta">
+                            <a>Для вентиляции применяется перфорация.</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui card">
+                    <a class="blurring dimmable image" href="#">
+                        <div class="ui dimmer">
+                            <div class="content">
+                                <div class="center">
+                                    <div class="ui inverted button">Choose</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <img src="assets/img/test.png">
+                    </a>
+                    <div class="content">
+                        <a class="header" href="#">Перфорированный корпус</a>
+                        <div class="meta">
+                            <a>Для вентиляции применяется перфорация.</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui card">
+                    <a class="blurring dimmable image" href="#">
+                        <div class="ui dimmer">
+                            <div class="content">
+                                <div class="center">
+                                    <div class="ui inverted button">Choose</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <img src="assets/img/test.png">
+                    </a>
+                    <div class="content">
+                        <a class="header" href="#">Перфорированный корпус</a>
+                        <div class="meta">
+                            <a>Для вентиляции применяется перфорация.</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui card">
+                    <a class="blurring dimmable image" href="#">
+                        <div class="ui dimmer">
+                            <div class="content">
+                                <div class="center">
+                                    <div class="ui inverted button">Choose</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <img src="assets/img/test.png">
+                    </a>
+                    <div class="content">
+                        <a class="header" href="#">Перфорированный корпус</a>
+                        <div class="meta">
+                            <a>Для вентиляции применяется перфорация.</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </section>
 
-    <section class="stages stage-3">
-        <h1>Stage-3</h1>
-        <div class="accordion-el">
-            <p>Зыд пожжэ квюаыквуэ констятюам ед. Шэа чингюльищ ажжынтиор эа, омныз маиорюм дэтракто пэр нэ. Ыам
-                ыльигэнди глориатюр эю, ыам жкаывола элыктрам лаборамюз ед. Нибх аппэтырэ мныжаркхюм нык ку. Ридэнж
-                алььтэрюм тхэопхражтуз квюо экз, эа еюж нобёз ыкжплььикари.
-
-                Вэл эа фюйзчыт дычэрунт пэртинакёа, эа ыам омниюм орнатюс. Выльёт жэмпэр апэряря эи квуй, прё ты доктюж
-                кончюлату. Ут вэл квюач пожйдонёюм, эрат тымпор адолэжкэнс ут ыюм. Ты кюм клита ёнэрмйщ пытынтёюм. Вэл
-                дычэрунт дэлььиката мныжаркхюм эи. Но аляквюид ёнкорруптэ нык, ку фюгит декам мюнырэ ыюм, эвэртё орнатюс
-                рыкючабо хаж ыт. Ку декам волумюч хёз.
-
-                Ад квюо корпора ылоквюэнтиам. Конвынёры компльыктётюр ут мэя. Ючю фюйзчыт дэмокритум ат, дикунт вокынт
-                ыт мэль, мыа праэчынт пэртинакёа но. Ты аюдирэ адипижкй плььатонэм хаж. Жят пробо пожжёт ут, ыт мэль
-                пэрчёус партйэндо, ажжюм фачтидёе мандамюч эа ыам.</p>
+        <div class="active title">
+            <i class="dropdown icon"></i>
+            Stage 2
         </div>
-    </section>
+        <div class="active content">
 
-</div>
+            <div class="ui vertically divided grid">
+                <div class="two column row">
+                    <div class="column">
+
+                        <div class="ui form">
+                            <div class="four field">
+                                <input type="text" placeholder="Param 1" autofocus tabindex="1">
+                            </div>
+                            <div class="field">
+                                <input type="text" placeholder="Param 2" tabindex="2">
+                            </div>
+                            <div class="field">
+                                <input type="text" placeholder="Param 3" tabindex="3">
+                            </div>
+
+                            <div class="ui toggle checkbox field">
+                                <input type="checkbox" name="gravitation">
+                                <label>Gravitation</label>
+                            </div>
+
+                            <div class="buttons">
+                                <button class="tiny ui primary button">
+                                    Save
+                                </button>
+                                <button class=" tiny ui button">
+                                    Discard
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="ui column">
+                        <div class="ui segment">
+                            <div class="ui  inverted dimmer">
+                                <div class="ui text loader">Loading</div>
+                            </div>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aliquam
+                                commodi deserunt doloremque enim harum, illum, impedit itaque iure minus molestiae odio
+                                officiis praesentium quidem quod sed tenetur veritatis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="title">
+            <i class="dropdown icon"></i>
+            Stage 3
+        </div>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+                consequatur corporis ex facilis hic iusto soluta sunt voluptatum! Aut iure officiis quos voluptate?
+                Aperiam reprehenderit velit vitae voluptas? Quo, veritatis.</p>
+        </div>
+    </div>
+
+</main>
 </body>
-
 </html>
