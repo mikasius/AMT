@@ -22,3 +22,8 @@ canvas {
     padding: 10px;
     border-left: 1px solid #ccc;
 }
+
+.viewPort {
+	background-color: #ccc;
+	height: 300px;
+}
