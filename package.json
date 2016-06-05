@@ -1,19 +1,22 @@
 {
   "name": "amt",
   "version": "1.0.0",
-  "description": "Программа для автоматического расчета тепловыъ режимов РЭС.",
-  "main": "index.js",
+  "description": "Automatic measurement tool",
+  "main": "core.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Mikasa/AMT.git"
-  },
-  "author": "Sergey Metlenkin <s.metlenkin@gmail.com>",
+  "keywords": [
+    "amt",
+    "tool",
+    "automatic",
+    "measurement"
+  ],
+  "author": "Sergey Metlenkin, s.metlenkin@gmail.com",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Mikasa/AMT/issues"
-  },
-  "homepage": "https://github.com/Mikasa/AMT#readme"
+  "dependencies": {
+    "angular": "^1.5.6",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.4"
+  }
 }

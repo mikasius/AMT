@@ -1,29 +1,25 @@
-.viewport {
-    padding: 10px 30px;
+img {
+    width: 250px;
 }
 
-p {
-    word-wrap: break-word;
+.input-group-addon i {
+    font-family: "Times New Roman", sans-serif;
 }
 
-a:link,
-a:hover,
-a:active,
-a:visited {
-    color: #fff;
+div.input-group {
+    margin-bottom: 7px;
 }
 
-canvas {
+:focus {
+    outline: none;
+}
+
+#view li {
+    max-width: 300px;
+    min-width: 290px;
     width: 100%;
-    height: 100%
 }
 
-.interactiveScene {
-    padding: 10px;
-    border-left: 1px solid #ccc;
-}
-
-.viewPort {
-	background-color: #ccc;
-	height: 300px;
+#help {
+    margin: 30px 0;
 }
