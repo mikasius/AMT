@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>AMT</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+</head>
+
+<body>
+
+<header class="navbar navbar-static-top navbar-default">
+    <div class="container">
+        <ul class="nav navbar-nav">
+            <li class="navbar-brand">AMT</li>
+            <li><a href="index.html"><b>Этап 1</b>: выбор корпуса</a></li>
+            <li class="active"><a href="stage-2-choose-params.html"><b>Этап 2</b>: задание параметров</a></li>
+            <li><a href="stage-3-results.html"><b>Этап 3</b>: получение результатов</a></li>
+        </ul>
+    </div>
+</header>
+
+<div id="view">
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="corps-size col-sm-4">
+                    <h5>Размеры корпуса:</h5>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i>l</i><sub>1</sub></span>
+                        <input type="text" class="form-control" placeholder="Например: 0.160">
+                        <span class="input-group-addon">м</span>
+                    </div>
+
+                    <div class="input-group">
+                        <span class="input-group-addon"><i>l</i><sub>2</sub></span>
+                        <input type="text" class="form-control" placeholder="Например: 0.180">
+                        <span class="input-group-addon">м</span>
+                    </div>
+
+                    <div class="input-group">
+                        <span class="input-group-addon"><i>l</i><sub>3</sub></span>
+                        <input type="text" class="form-control" placeholder="Например: 0.190">
+                        <span class="input-group-addon">м</span>
+                    </div>
+
+                </div>
+
+                <div class="power col-sm-4">
+                    <h5>Мощность:</h5>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i>P</i></span>
+                        <input type="text" class="form-control" placeholder="Например: 30">
+                        <span class="input-group-addon">Вт</span>
+                    </div>
+
+                    <div class="input-group">
+                        <span class="input-group-addon"><i>P</i><sub>эл 1</sub></span>
+                        <input type="text" class="form-control" placeholder="Например: 2.8">
+                        <span class="input-group-addon">Вт</span>
+                    </div>
+
+                    <div class="input-group">
+                        <span class="input-group-addon"><i>P</i><sub>эл 2</sub></span>
+                        <input type="text" class="form-control" placeholder="Например: 2.2">
+                        <span class="input-group-addon">Вт</span>
+                    </div>
+
+                </div>
+
+                <div class="power col-sm-4">
+                    <h5>Коэффициенты:</h5>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i>К</i><sub>з</sub></span>
+                        <input type="text" class="form-control" placeholder="Например: 0.3">
+                    </div>
+
+                    <div class="input-group">
+                        <span class="input-group-addon"><i>H</i><sub>1</sub> = <i>H</i><sub>2</sub></span>
+                        <input type="text" class="form-control" placeholder="Например: 0.1">
+                        <span class="input-group-addon">МПа</span>
+                    </div>
+
+                    <div class="input-group">
+                        <span class="input-group-addon"><i>T</i><sub>с</sub></span>
+                        <input type="text" class="form-control" placeholder="Например: 293">
+                        <span class="input-group-addon">К</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="power col-sm-4">
+                    <h5>Площадь:</h5>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i>S</i><sub>эл 1</sub></span>
+                        <input type="text" class="form-control" placeholder="Например: 8">
+                        <span class="input-group-addon">* 10<sup>-3</sup> м<sup>2</sup></span>
+                    </div>
+
+                    <div class="input-group">
+                        <span class="input-group-addon"><i>S</i><sub>эл 2</sub></span>
+                        <input type="text" class="form-control" placeholder="Например: 118">
+                        <span class="input-group-addon">* 10<sup>-3</sup> м<sup>2</sup></span>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn btn-default">Расчитать</button>
+        </form>
+    </div>
+</div>
+
+
+</body>
+</html>
